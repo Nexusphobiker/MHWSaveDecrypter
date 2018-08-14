@@ -33,7 +33,7 @@ namespace MHWsaveDecrypter
             bool encrypt = true;
             if (key72Offset != 0)
                 encrypt = false;
-            //might aswell but that in a loop instead
+            //might aswell put that in a loop instead
             uint A = data ^ BitConverter.ToUInt32(key_72, (int)(key72Offset*4));
             opKey72Offset(encrypt, ref key72Offset);
             uint B = BasicAlg(key72Offset, A, nextData);
