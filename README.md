@@ -14,3 +14,5 @@ Decryption logic: 0000000141DB2EA0
 Encryption logic: 0000000141DB2A20
 
 Uses a 4096 byte and 72 byte xor cipher. 
+
+The saves use a checksum either nop "MonsterHunterWorld.exe"+20727E4 and "MonsterHunterWorld.exe"+2072809 or fake the checksum if you want to modify the saves. I didnt reverse the logic yet.
