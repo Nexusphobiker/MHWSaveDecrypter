@@ -38,6 +38,8 @@ namespace MHWsaveDecrypter
                     oStream.Write(buff, 0, buff.Length);
                     Console.WriteLine(iStream.Position.ToString() + '/' + iStream.Length.ToString());
                 }
+                iStream.Flush();
+                oStream.Flush();
             }
             else
             {
@@ -53,6 +55,8 @@ namespace MHWsaveDecrypter
                     oStream.Write(buff, 0, buff.Length);
                     Console.WriteLine(iStream.Position.ToString() + '/' + iStream.Length.ToString());
                 }
+                iStream.Flush();
+                oStream.Flush();
             }
             
             Console.WriteLine("Done");
