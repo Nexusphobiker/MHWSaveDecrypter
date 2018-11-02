@@ -1,6 +1,11 @@
 # MHWSaveDecrypter
 Save decrypter and encrypter for Monster Hunter: World
 
+# This project is discontinued. I recommend to check out this library for future use https://github.com/TanukiSharp/MHWSaveUtils
+# Examples:
+# https://github.com/TanukiSharp/MHArmory
+# https://github.com/TanukiSharp/MHWWeaponUsage
+
 Drag and drop a file onto the .exe and pick either 1 or 2 for decryption or encryption 
 
 ![alt text](https://i.imgur.com/b8rDzKm.png)
